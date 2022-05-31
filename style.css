@@ -1,0 +1,214 @@
+body{
+    background-color: #636663;
+ }
+            
+ #my_chart{
+        background: #fff;
+         padding: 20px;
+		 position:relative;
+            }
+            
+h1{
+    text-align: center;
+    font-style: italic;
+    width:250 px;
+    height: 250 px;
+    background-color: khaki;
+    animation-name: darly;
+    animation-duration:20s;
+}
+@keyframes darly{
+    0%  {background-color: maroon;}
+    25% {background-color: yellowgreen;}
+    50% {background-color: blueviolet;}
+    100% {background-color: rgb(231, 71, 146);}
+
+    
+}
+#Container11{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+	}
+#Container{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.clear:before,
+        .clear:after {
+            content: "";
+            display: table;
+        }
+
+        .clear:after {
+            clear: both;
+        }
+
+        .clear {
+            *zoom: 1;
+        }
+
+        .gauge {
+            display: block;
+            float: left;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+            margin: 0 0 1% 0;
+        }
+
+        .size-1 {
+            width: 20%;
+        }
+
+        .size-2 {
+            width: 30%;
+        }
+
+        .size-3 {
+            width:70%;
+        }
+
+        .h-split {
+            display: block;
+            float: left;
+            width: 1%;
+            min-height: 100px;
+        }
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 450px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  }
+.button5 {
+border-radius: 40%;
+width:80px;
+height:80px;
+margin-top:200px;
+
+}
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #FF0000;} /* red */
+.ball {
+  border: none;
+  color: white;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 252px 20px;
+  cursor: pointer;
+
+}
+.ball1 {background-color: #4CAF50;} /* Green */
+.ball2 {background-color: #FF0000;} /* red */
+.Card{
+width: 200px;
+height: 100px;
+border-radius: 2px;
+margin: 5px;
+position: relative;
+
+}
+#Card1{
+    background: linear-gradient(0deg,#008080,#C0C0C0);
+	
+}
+
+#Card2{
+    background: linear-gradient(0deg,#CD5C5C,#C0C0C0);
+
+}
+#Card3{
+    background: linear-gradient(0deg,#008080,#C0C0C0);
+}
+#Card4{
+    background: linear-gradient(0deg,#CD5C5C,#C0C0C0);
+}
+#Card5{
+    box-shadow: 4px 4px 6px 0px;
+    background: linear-gradient(357deg, #d65307, #3b0b2b);
+}
+#Card5:active{
+    box-shadow: 3px 2px 6px 0px;
+   
+}
+#Card5:hover{
+    cursor: pointer;
+   
+}
+#Card6{
+    box-shadow: 4px 4px 6px 0px;
+    background: linear-gradient(357deg, #d65307, #3b0b2b);
+}
+#Card6:active{
+    box-shadow: 3px 2px 6px 0px;
+   
+}
+#Card6:hover{
+    cursor: pointer;
+   
+}
+#gauge{
+  width: 300px;
+  height: 500px;
+  border-radius:2px;
+  margin: 855px;
+  position:relative;
+ 
+}
+#curve_chart{
+width: 40%; 
+height: 250px;
+margin-top:340px;
+
+}
+
+
+.Card .Icon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+}
+.Card .CardName{
+    color: rgba(255, 255, 255, 0.842);
+    position: absolute;
+    bottom: 20px;
+    font-size: 15px;
+    left: 10px;
+}
+
+.Card .CardValue{
+    color: black;
+    right: 50px;
+    position: absolute;
+    bottom: 20px;
+}
